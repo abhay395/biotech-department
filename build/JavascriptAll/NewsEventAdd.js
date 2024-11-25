@@ -188,9 +188,9 @@ function createRow(element, index) {
 
 // createTable
 const createTable = (data, title) => {
-  const h1 = document.createElement("h1");
-  h1.className = "text-center my-4"; // Centered text with margin
-  h1.innerText = title;
+  const h4 = document.createElement("h4");
+  h4.className = "text-center my-4"; // Centered text with margin
+  h4.innerText = title;
 
   const table = document.createElement("table");
   table.className = "table table-bordered table-hover"; // Bootstrap classes for the table
@@ -213,7 +213,7 @@ const createTable = (data, title) => {
   });
   table.appendChild(tableBody);
   //  append table heading
-  tableSection.appendChild(h1);
+  tableSection.appendChild(h4);
   // append table
   tableSection.appendChild(table);
 };

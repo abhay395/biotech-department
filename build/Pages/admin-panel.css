@@ -18,6 +18,9 @@ body {
   transition: all 0.3s;
   box-shadow: 2px 0 10px rgba(0, 0, 0, 0.1);
 }
+.active{
+  background-color: rgba(255, 255, 255, 0.2) !important;
+}
 
 #sidebar-wrapper .sidebar-heading {
   padding: 1.5rem;

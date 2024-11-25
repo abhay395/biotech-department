@@ -40,7 +40,6 @@ async function renderHODData(){
       displayNoDataMessage();
       return
     }
-    console.log(data);
     data.forEach((item) => {
       headcontainer.innerHTML = `<div class="row justify-content-center">
             <div class="col-lg-8 col-md-10">
@@ -56,7 +55,7 @@ async function renderHODData(){
                   <div class="col-md-8 align-items-center">
                     <div class="card-body p-4">
                       <h5 class="card-title">${item.name}</h5>
-                      ${item.post=='HOD' && "<span class='badge bg-primary mb-2'>Head of Computer Science Department</span>"}
+                      ${item.post=='HOD' && "<span class='badge bg-primary mb-2'>Head of Biotechnology Department</span>"}
                       <p class="card-text">
                       ${item.description}
                       </p>
